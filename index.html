@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+      <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
     
     <link rel="stylesheet" href="css/owl.carousel.min.css">
@@ -73,6 +74,31 @@
               background: #bb0000;
               color: white;
           }
+          .onlyl{
+            display: block;
+          }
+          .onlym{
+              display: none;
+          }
+
+          @media only screen and (max-width: 500px) {
+              .onlym
+              {
+                  display: block;
+              }
+              .onlyl{
+                  display: none;
+              }
+          }
+          @media only screen and (max-width: 1024px) {
+              .onlym
+              {
+                  display: block;
+              }
+              .onlyl{
+                  display: none;
+              }
+          }
 
       </style>
   </head>
@@ -112,7 +138,13 @@
         </div>
       </div>
     </div>
-      <div class="container"  style="margin-top: -30px;">
+
+
+
+
+
+
+      <div class="container onlyl"  style="margin-top: -30px;">
           <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 30%; float: left; margin-right: 3% ; border: 0px;border-radius: 10px; height: 480px">
               <div class="card-body">
                   <h5 class="card-title"><i class="fa fa-clock-o BC" style="color:#3ce2ad"></i> Horaires d'ouvertures</h5>
@@ -125,6 +157,7 @@
                   <p>Conventions :</span> CMIM, CNOPS, CNSS</p>
               </div>
           </div>
+
           <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 30%; float: left; margin-right: 3% ; border: 0px;border-radius: 10px; height: 480px">
               <div class="card-body">
                   <h5 class="card-title" style="font-size: 30px">Laboratoire d’analyses médicales, Allal el fassi</h5>
@@ -133,6 +166,7 @@
                   <a href="about.html" class="btn btn-primary">En savoir plus</a>
               </div>
           </div>
+
           <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 30%; float: left; margin-right: 3% ; border: 0px;border-radius: 10px; height: 480px">
               <div class="card-body">
                   <h5 class="card-title"><i class="fa fa-clock-o BC" style="color:#3ce2ad"></i> Résultats d’analyse en ligne</h5>
@@ -144,86 +178,217 @@
               </div>
           </div>
       </div>
+
+  <div class="container onlym"  style="margin-top: -30px;">
+
+      <div class="card shadow p-3 mb-5 bg-white rounded" >
+          <div class="card-body">
+              <h5 class="card-title" style="font-size: 30px">Laboratoire d’analyses médicales, Allal el fassi</h5>
+              <p class="card-text">Nous assurons votre prise en charge, pour diverses analyses, avec ou sans RDV.</p>
+              <p>Notre équipe mobile vous propose aussi un service à domicile sur Marrakech</p>
+              <a href="about.html" class="btn btn-primary">En savoir plus</a>
+          </div>
+      </div>
+
+      <div class="card shadow p-3 mb-5 bg-white rounded" >
+          <div class="card-body">
+              <h5 class="card-title"><i class="fa fa-clock-o BC" style="color:#3ce2ad"></i> Horaires d'ouvertures</h5>
+              <p class="card-text">VOUS POUVEZ ACCÉDER À NOTRE LABORATOIRE DU :</p>
+              <p>Lundi – Vendredi 07h30 - 18h30</p>
+              <p>Samedi 07h30 – 13h00</p>
+              <h5><i class="fa fa-pencil-square-o BC" style="color:#3ce2ad"></i>Infos Utiles</h5>
+              <p>Prélèvement à domicile :</span> remplissez le formulaire</p>
+              <p>Préparez votre examen :</span> Retrouvez nos recommandations utiles avant de procéder aux examens</p>
+              <p>Conventions :</span> CMIM, CNOPS, CNSS</p>
+          </div>
+      </div>
+
+
+
+      <div class="card shadow p-3 mb-5 bg-white rounded" >
+          <div class="card-body">
+              <h5 class="card-title"><i class="fa fa-clock-o BC" style="color:#3ce2ad"></i> Résultats d’analyse en ligne</h5>
+              <p class="card-text">Vous pouvez récupérer vos résultats d’analyse via notre espace sécurisé.</p>
+              <br>
+              <a href="#" class="btn btn-primary btn-lg btn-block" style="padding: 20px; border-radius: 10px">Accès Patient</a>
+              <br>
+              <a href="#" class="btn btn-primary btn-lg btn-block" style="padding: 20px; border-radius: 10px">Accès Médecin</a>
+          </div>
+      </div>
+  </div>
+
+
+
+
+
+
+
+
   <div class="container col-md-12 text-center" style="margin-bottom: 30px">
       <div class="col-md-8 text-center container">
           <h3>ASSURER LA SATISFACTION DE NOS PATIENTS EST NOTRE PRIORITÉ</h3>
           <p>Notre équipe de laboratoire Allal el fassi professionnels veillent au quotidien sur la qualité de réalisation de vos analyses. Nous avons ainsi équipé notre laboratoire en plateaux techniques avec du matériels très performants pour vous garantir le meilleur délai de vos résultats dans des conditions de qualité optimale.</p>
+          <br>
       </div>
   </div>
-    <section class="ftco-services" style="display: inline-block; margin-top: 30px">
+
+
+
+
+<!--    <section class="ftco-services" style="display: inline-block; margin-top: 30px">-->
+<!--      <div class="container">-->
+<!--        <div class="row no-gutters">-->
+<!--          <div class="col-md-4 ftco-animate py-5 nav-link-wrap">-->
+<!--            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">-->
+<!--              <a class="nav-link px-4 active" id="v-pills-master-tab" data-toggle="pill" href="#v-pills-master" role="tab" aria-controls="v-pills-master" aria-selected="true"><span class="mr-3 flaticon-cardiogram"></span> Hématologie</a>-->
+<!--              <a class="nav-link px-4" id="v-pills-buffet-tab" data-toggle="pill" href="#v-pills-buffet" role="tab" aria-controls="v-pills-buffet" aria-selected="false"><span class="mr-3 flaticon-neurology"></span> Sérologie</a>-->
+<!--              <a class="nav-link px-4" id="v-pills-fitness-tab" data-toggle="pill" href="#v-pills-fitness" role="tab" aria-controls="v-pills-fitness" aria-selected="false"><span class="mr-3 flaticon-stethoscope"></span> Biochimie</a>-->
+<!--              <a class="nav-link px-4" id="v-pills-reception-tab" data-toggle="pill" href="#v-pills-reception" role="tab" aria-controls="v-pills-reception" aria-selected="false"><span class="mr-3 flaticon-tooth"></span> Bactériologie</a>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--          <div class="col-md-8 ftco-animate p-4 p-md-5 d-flex align-items-center">-->
+<!--            <div class="tab-content pl-md-5" id="v-pills-tabContent">-->
+<!--              <div class="tab-pane fade show active py-5" id="v-pills-master" role="tabpanel" aria-labelledby="v-pills-master-tab" style="    margin-top: -90px; width: 900px">-->
+<!--                <span class="icon mb-3 d-block flaticon-cardiogram"></span>-->
+<!--                <h2 class="mb-4">Hématologie</h2>-->
+<!--                <p>Vous permet d’identifier d’éventuelles pathologies : infections, hémorragies, maladies du sang…à travers divers analyses :</p>-->
+<!--                <ul>-->
+<!--                    <li>Cellules du sang : Formule leucocytaire, NFS, Plaquettes, VS…</li>-->
+<!--                    <li>Coagulation : Fibrinogène, Héparinémie, Protéine C et protéine S, TCA….</li>-->
+<!--                    <li>Groupes sanguins et Anticorps irréguliers : Groupes sanguins, RAI</li>-->
+<!--                </ul>-->
+<!--              </div>-->
+
+<!--              <div class="tab-pane fade py-5" id="v-pills-buffet" role="tabpanel" aria-labelledby="v-pills-buffet-tab" style="    margin-top: -90px; width: 900px">-->
+<!--                <span class="icon mb-3 d-block flaticon-neurology"></span>-->
+<!--                <h2 class="mb-4">Sérologie</h2>-->
+<!--                <p>Vous permet d’évaluer l'immunité contre une maladie en mesurant la quantité d'anticorps :</p>-->
+<!--                <ul>-->
+<!--                    <li>Sérologie bactérienne : Fièvres thyphoïdes, Syphilis…</li>-->
+<!--                    <li>Sérologie parasitaire : Toxoplasmose</li>-->
+<!--                    <li>Sérologie virale : VIH, Hépatite A, B, C,...</li>-->
+<!--                </ul>  -->
+<!--              </div>-->
+
+<!--              <div class="tab-pane fade py-5" id="v-pills-fitness" role="tabpanel" aria-labelledby="v-pills-fitness-tab" style="margin-top: -90px; width: 900px">-->
+<!--                <span class="icon mb-3 d-block flaticon-stethoscope"></span>-->
+<!--                <h2 class="mb-4">Biochimie</h2>-->
+<!--                <p>Vous donne des informations importantes sur les fonctions digestives, rénale, métabolique et hépatique.</p>-->
+<!--                <div style="width: 50%; float: left">-->
+<!--                    <ul>-->
+<!--                        <li>Ions et électrolytes sanguins et urinaires : Acide urique, Créatinine, Urée…</li>-->
+<!--                        <li>Bilan lipidique et Sucre : cholestérol, triglycérides, glycémie...</li>-->
+<!--                        <li>Fer : CTF, FER, Ferritine…</li>-->
+<!--                        <li>Marqueurs tumoraux : PSA, ACE, CA 15-3…</li>-->
+<!--                    </ul>-->
+<!--                </div>-->
+<!--                 <div style="width: 50%; float: left">-->
+<!--                     <ul>-->
+<!--                         <li>Protéine : CRP, Albumine, HbA1C..</li>-->
+<!--                         <li>Fonctions hépatiques et pancréatiques : Alcool, Bilirubine, Transaminases ASAT, ALAT…</li>-->
+<!--                         <li>Vitamines : A1, B12, D3…</li>-->
+<!--                         <li>Hormones : ACTH, ADH, hGH, Insuline…</li>-->
+<!--                     </ul>-->
+<!--                 </div>-->
+<!--              </div>-->
+
+<!--              <div class="tab-pane fade py-5" id="v-pills-reception" role="tabpanel" aria-labelledby="v-pills-reception-tab" style="    margin-top: -90px; width: 900px">-->
+<!--                <span class="icon mb-3 d-block flaticon-tooth"></span>-->
+<!--                <h2 class="mb-4">Bactériologie</h2>-->
+<!--                <p>Vous permet d’identifier l'agent responsable de l'infection : bactérie, parasite, champignons microscopiques, etc</p>-->
+<!--                <ul>-->
+<!--                    <li>Hémoculture</li>-->
+<!--                    <li>ECBU</li>-->
+<!--                    <li>Coproculture</li>-->
+<!--                    <li>LCR</li>-->
+<!--                </ul>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </section>-->
+
+
+
+
+
+  <section class="ftco-services" style="display: block; margin-top: 30px">
       <div class="container">
-        <div class="row no-gutters">
-          <div class="col-md-4 ftco-animate py-5 nav-link-wrap">
-            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-              <a class="nav-link px-4 active" id="v-pills-master-tab" data-toggle="pill" href="#v-pills-master" role="tab" aria-controls="v-pills-master" aria-selected="true"><span class="mr-3 flaticon-cardiogram"></span> Hématologie</a>
-              <a class="nav-link px-4" id="v-pills-buffet-tab" data-toggle="pill" href="#v-pills-buffet" role="tab" aria-controls="v-pills-buffet" aria-selected="false"><span class="mr-3 flaticon-neurology"></span> Sérologie</a>
-              <a class="nav-link px-4" id="v-pills-fitness-tab" data-toggle="pill" href="#v-pills-fitness" role="tab" aria-controls="v-pills-fitness" aria-selected="false"><span class="mr-3 flaticon-stethoscope"></span> Biochimie</a>
-              <a class="nav-link px-4" id="v-pills-reception-tab" data-toggle="pill" href="#v-pills-reception" role="tab" aria-controls="v-pills-reception" aria-selected="false"><span class="mr-3 flaticon-tooth"></span> Bactériologie</a>
-            </div>
+          <div class="row no-gutters">
+              <div class="col-md-4 ftco-animate  nav-link-wrap">
+                  <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                      <a class="nav-link px-4 active" id="v-pills-master-tab" data-toggle="pill" href="#v-pills-master" role="tab" aria-controls="v-pills-master" aria-selected="true"><span class="mr-3 flaticon-cardiogram"></span> Hématologie</a>
+                      <a class="nav-link px-4" id="v-pills-buffet-tab" data-toggle="pill" href="#v-pills-buffet" role="tab" aria-controls="v-pills-buffet" aria-selected="false"><span class="mr-3 flaticon-neurology"></span> Sérologie</a>
+                      <a class="nav-link px-4" id="v-pills-fitness-tab" data-toggle="pill" href="#v-pills-fitness" role="tab" aria-controls="v-pills-fitness" aria-selected="false"><span class="mr-3 flaticon-stethoscope"></span> Biochimie</a>
+                      <a class="nav-link px-4" id="v-pills-reception-tab" data-toggle="pill" href="#v-pills-reception" role="tab" aria-controls="v-pills-reception" aria-selected="false"><span class="mr-3 flaticon-tooth"></span> Bactériologie</a>
+                  </div>
+              </div>
+              <div class="col-md-8 ftco-animate p-4 p-md-5 d-flex align-items-center">
+                  <div class="tab-content pl-md-5" id="v-pills-tabContent">
+                      <div class="tab-pane fade show active " id="v-pills-master" role="tabpanel" aria-labelledby="v-pills-master-tab" style="">
+                          <span class="icon mb-3 d-block flaticon-cardiogram"></span>
+                          <h2 class="mb-4">Hématologie</h2>
+                          <p>Vous permet d’identifier d’éventuelles pathologies : infections, hémorragies, maladies du sang…à travers divers analyses:</p>
+                          <ul>
+                              <li>Cellules du sang : Formule leucocytaire, NFS, Plaquettes, VS…</li>
+                              <li>Coagulation : Fibrinogène, Héparinémie, Protéine C et protéine S, TCA….</li>
+                              <li>Groupes sanguins et Anticorps irréguliers : Groupes sanguins, RAI</li>
+                          </ul>
+                      </div>
+
+                      <div class="tab-pane fade py-5" id="v-pills-buffet" role="tabpanel" aria-labelledby="v-pills-buffet-tab" style=" ">
+                          <span class="icon mb-3 d-block flaticon-neurology"></span>
+                          <h2 class="mb-4">Sérologie</h2>
+                          <p>Vous permet d’évaluer l'immunité contre une maladie en mesurant la quantité d'anticorps :</p>
+                          <ul>
+                              <li>Sérologie bactérienne : Fièvres thyphoïdes, Syphilis…</li>
+                              <li>Sérologie parasitaire : Toxoplasmose</li>
+                              <li>Sérologie virale : VIH, Hépatite A, B, C,...</li>
+                          </ul>
+                      </div>
+
+                      <div class="tab-pane fade py-5" id="v-pills-fitness" role="tabpanel" aria-labelledby="v-pills-fitness-tab" style="">
+                          <span class="icon mb-3 d-block flaticon-stethoscope"></span>
+                          <h2 class="mb-4">Biochimie</h2>
+                          <p>Vous donne des informations importantes sur les fonctions digestives, rénale, métabolique et hépatique.</p>
+                          <div style="width: 50%; float: left">
+                              <ul>
+                                  <li>Ions et électrolytes sanguins et urinaires : Acide urique, Créatinine, Urée…</li>
+                                  <li>Bilan lipidique et Sucre : cholestérol, triglycérides, glycémie...</li>
+                                  <li>Fer : CTF, FER, Ferritine…</li>
+                                  <li>Marqueurs tumoraux : PSA, ACE, CA 15-3…</li>
+                              </ul>
+                          </div>
+                          <div style="width: 50%; float: left">
+                              <ul>
+                                  <li>Protéine : CRP, Albumine, HbA1C..</li>
+                                  <li>Fonctions hépatiques et pancréatiques : Alcool, Bilirubine, Transaminases ASAT, ALAT…</li>
+                                  <li>Vitamines : A1, B12, D3…</li>
+                                  <li>Hormones : ACTH, ADH, hGH, Insuline…</li>
+                              </ul>
+                          </div>
+                      </div>
+
+                      <div class="tab-pane fade py-5" id="v-pills-reception" role="tabpanel" aria-labelledby="v-pills-reception-tab" style="">
+                          <span class="icon mb-3 d-block flaticon-tooth"></span>
+                          <h2 class="mb-4">Bactériologie</h2>
+                          <p>Vous permet d’identifier l'agent responsable de l'infection : bactérie, parasite, champignons microscopiques, etc</p>
+                          <ul>
+                              <li>Hémoculture</li>
+                              <li>ECBU</li>
+                              <li>Coproculture</li>
+                              <li>LCR</li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
           </div>
-          <div class="col-md-8 ftco-animate p-4 p-md-5 d-flex align-items-center">
-            <div class="tab-content pl-md-5" id="v-pills-tabContent">
-              <div class="tab-pane fade show active py-5" id="v-pills-master" role="tabpanel" aria-labelledby="v-pills-master-tab" style="    margin-top: -90px; width: 900px">
-                <span class="icon mb-3 d-block flaticon-cardiogram"></span>
-                <h2 class="mb-4">Hématologie</h2>
-                <p>Vous permet d’identifier d’éventuelles pathologies : infections, hémorragies, maladies du sang…à travers divers analyses :</p>
-                <ul>
-                    <li>Cellules du sang : Formule leucocytaire, NFS, Plaquettes, VS…</li>
-                    <li>Coagulation : Fibrinogène, Héparinémie, Protéine C et protéine S, TCA….</li>
-                    <li>Groupes sanguins et Anticorps irréguliers : Groupes sanguins, RAI</li>
-                </ul>
-              </div>
-
-              <div class="tab-pane fade py-5" id="v-pills-buffet" role="tabpanel" aria-labelledby="v-pills-buffet-tab" style="    margin-top: -90px; width: 900px">
-                <span class="icon mb-3 d-block flaticon-neurology"></span>
-                <h2 class="mb-4">Sérologie</h2>
-                <p>Vous permet d’évaluer l'immunité contre une maladie en mesurant la quantité d'anticorps :</p>
-                <ul>
-                    <li>Sérologie bactérienne : Fièvres thyphoïdes, Syphilis…</li>
-                    <li>Sérologie parasitaire : Toxoplasmose</li>
-                    <li>Sérologie virale : VIH, Hépatite A, B, C,...</li>
-                </ul>  
-              </div>
-
-              <div class="tab-pane fade py-5" id="v-pills-fitness" role="tabpanel" aria-labelledby="v-pills-fitness-tab" style="margin-top: -90px; width: 900px">
-                <span class="icon mb-3 d-block flaticon-stethoscope"></span>
-                <h2 class="mb-4">Biochimie</h2>
-                <p>Vous donne des informations importantes sur les fonctions digestives, rénale, métabolique et hépatique.</p>
-                <div style="width: 50%; float: left">
-                    <ul>
-                        <li>Ions et électrolytes sanguins et urinaires : Acide urique, Créatinine, Urée…</li>
-                        <li>Bilan lipidique et Sucre : cholestérol, triglycérides, glycémie...</li>
-                        <li>Fer : CTF, FER, Ferritine…</li>
-                        <li>Marqueurs tumoraux : PSA, ACE, CA 15-3…</li>
-                    </ul>
-                </div>
-                 <div style="width: 50%; float: left">
-                     <ul>
-                         <li>Protéine : CRP, Albumine, HbA1C..</li>
-                         <li>Fonctions hépatiques et pancréatiques : Alcool, Bilirubine, Transaminases ASAT, ALAT…</li>
-                         <li>Vitamines : A1, B12, D3…</li>
-                         <li>Hormones : ACTH, ADH, hGH, Insuline…</li>
-                     </ul>
-                 </div>
-              </div>
-
-              <div class="tab-pane fade py-5" id="v-pills-reception" role="tabpanel" aria-labelledby="v-pills-reception-tab" style="    margin-top: -90px; width: 900px">
-                <span class="icon mb-3 d-block flaticon-tooth"></span>
-                <h2 class="mb-4">Bactériologie</h2>
-                <p>Vous permet d’identifier l'agent responsable de l'infection : bactérie, parasite, champignons microscopiques, etc</p>
-                <ul>
-                    <li>Hémoculture</li>
-                    <li>ECBU</li>
-                    <li>Coproculture</li>
-                    <li>LCR</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
-    </section>
-  <section class="ftco-section contact-section ftco-degree-bg">
+  </section>
+
+
+  <section class="ftco-section contact-section ftco-degree-bg" >
       <div class="container">
           <h1>Prendre un rendez-vous</h1>
           <div class="row block-9">
